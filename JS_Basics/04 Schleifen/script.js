@@ -1,4 +1,3 @@
-// <>
 for (let count = 7; count <= 45; count++) {
     console.log(count)
 }
