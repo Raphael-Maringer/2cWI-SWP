@@ -21,11 +21,22 @@ for (let count4 = 1234; count4 >= 1207; count4--) {
 }
 console.log("Fertig mit 4. Aufgabe")
 
-// Zähle von 7 bis 45
-// Zähle von 9 bis 99
-// Zähle rückwärts von 10 bis 0
-// Zähle rückwärts von 1234 bis 1207
 
-// Gib Deinen Namen genau 8 mal aus
-// Zähle von 0 auf 10, dann gib Deinen Namen aus, dann zähle
-// von 10 auf 0
+for (let count5 = 1; count5 <= 8; count5++) {
+    console.log("Raphael")
+}
+console.log("Fertig mit 5. Aufgabe")
+
+
+for (let count6 = 0; count6 <= 10; count6++) {
+    console.log(count6);
+}
+
+if (count6 = 10) {
+    console.log("Raphael");
+}
+
+for (let count7 = 10; count7 >= 0; count7--) {
+    console.log(count7)
+}
+console.log("Fertig mit 6. Aufgabe")

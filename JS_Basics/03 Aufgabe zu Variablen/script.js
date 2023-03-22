@@ -12,10 +12,10 @@ console.log("Ein Apfel kostet " + pricePerApple + "€");
 
 console.log("Eine Banane kostet " + pricePerBanana + "€");
 
-result= 1/appleWeight;
+result = 1 / appleWeight;
 console.log("Ein Kilogramm Äpfel entspricht " + result + " Äpfeln");
 
-result= 1/bananaWeight;
+result = 1 / bananaWeight;
 console.log("Ein Kilogramm Bananen entspricht " + result + " Bananen");
 
 result = pricePerApple * 8;
