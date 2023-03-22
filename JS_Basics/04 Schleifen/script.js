@@ -33,7 +33,7 @@ for (let count6 = 0; count6 <= 10; count6++) {
 }
 
 if (count6 = 10) {
-    console.log("Raphael");
+    console.log("Raphael")
 }
 
 for (let count7 = 10; count7 >= 0; count7--) {
