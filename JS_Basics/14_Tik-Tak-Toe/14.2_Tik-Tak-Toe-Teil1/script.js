@@ -20,9 +20,9 @@ function printField() {
             } else if (actualRow[col] === 1) {
                 sign = "X";
             }
-        }
+            output += sign + " | ";
 
-        output += sign + " | ";
+        }
     }
 
     console.log(output);
