@@ -1,9 +1,9 @@
 import { createInterface } from "readline";
 
 let field = [
-    [0, 0, 0],
-    [0, 0, 0],
-    [0, 0, 0]
+    ["□", "□", "□"],
+    ["□", "□", "□"],
+    ["□", "□", "□"]
 ];
 
 const readline = createInterface({
@@ -73,7 +73,7 @@ while (checkWinner(field) != 1 && checkWinner(field) != 2) {
     console.log("Player 1 Spalte:  ");
     let input_row = await readLineAsync();
     field[input_column][input_row] = 1
-    console.log("")
+    console.log("O")
 
     if (checkWinner(field) == 1) {
         console.log("Player 1 hat gewonnen!");
